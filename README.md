@@ -38,7 +38,7 @@ Typical configure option
 ------------------------
 ```
 $ bash bootstrap
-$ ./configure --prefix=/opt/pgadmin3bigsql --with-pgsql=/opt/pgsql/12 --with-libgcrypt CFLAGS=-fPIC CXXFLAGS=-fPIC
+$ ./configure --prefix=/opt/pgadmin3bigsql --with-pgsql=/opt/pgsql/12 --with-libgcrypt CFLAGS=-fPIC CXXFLAGS=-fPIC --with-wx-version=3.0
 $ make
 $ sudo make install
 ```
